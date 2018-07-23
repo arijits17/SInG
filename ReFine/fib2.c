@@ -11,6 +11,8 @@ int read_i1()
   pthread_mutex_lock(&m);
   ct++;
   pthread_mutex_unlock(&m);
+
+  if (ct<2 && ct >=0){ return (1+tmp%2); } 
   return tmp;
 }
 
