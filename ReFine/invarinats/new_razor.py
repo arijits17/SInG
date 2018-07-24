@@ -17,7 +17,7 @@ def genTrace(function_name, lower_cnt, upper_cnt):
 
 	it = 1
 	alert = False
-	keep_lines = []
+	keep_lines = [0]
 	
 	for it in range (1, len(trace_start_lines)-1):	#inside "a" trace
 		
@@ -69,4 +69,4 @@ def genTrace(function_name, lower_cnt, upper_cnt):
 				f.write(line)
 
 
-genTrace("read_i1", 0, 1)
+genTrace("read_i2", 0, 1)
