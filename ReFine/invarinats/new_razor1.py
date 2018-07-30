@@ -12,7 +12,11 @@ def getTraceStartLines(dtrace_filename):
 
 def genTrace(function_name, lower_cnt, upper_cnt):
 
+<<<<<<< HEAD
 	dtrace_filename = "program.dtrace"
+=======
+	dtrace_filename = "program.dtrace1"
+>>>>>>> 69a8c79f39e027cae164a7adeff1865414cb26b9
 	trace_start_lines = getTraceStartLines(dtrace_filename)
 
 	it = 1
@@ -28,7 +32,11 @@ def genTrace(function_name, lower_cnt, upper_cnt):
 			for num, line in enumerate(itertools.islice(main_dtrace, trace_start_lines[it]-1, trace_start_lines[it+1]-1),trace_start_lines[it]):
 				if "read_" in line:
 					read_count += 1
+<<<<<<< HEAD
 				if function_name in line : #and "ENTER" in line
+=======
+				if function_name in line:
+>>>>>>> 69a8c79f39e027cae164a7adeff1865414cb26b9
 					if function_read == False:
 						function_read = True
 						func_first_read_in_line = num
@@ -67,7 +75,13 @@ def genTrace(function_name, lower_cnt, upper_cnt):
 		with open(dtrace_filename) as main_dtrace:
 			for num, line in enumerate(itertools.islice(main_dtrace, trace_start_lines[it]-1, trace_start_lines[it+1]-2),trace_start_lines[it]):
 				f.write(line)
+<<<<<<< HEAD
 		f.write("\n")
 
 
 genTrace("read_i22", 0, 5)
+=======
+
+
+genTrace("read_i2", 0, 1)
+>>>>>>> 69a8c79f39e027cae164a7adeff1865414cb26b9
