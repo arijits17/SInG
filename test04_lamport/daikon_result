@@ -1,0 +1,19 @@
+Daikon version 5.6.4, released April 3, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 1 dtrace file:
+
+===========================================================================
+..udon_dummy_t1_l01():::ENTER
+::b1 == ::y
+::b1 == ::X
+===========================================================================
+..udon_dummy_t1_l01():::EXIT
+::b1 == ::y
+::b1 == ::X
+::b1 == return
+::b1 == orig(::b1)
+::b1 == orig(::y)
+::b1 == orig(::X)
+::x == orig(::x)
+::b2 == orig(::b2)
+Exiting Daikon.
+

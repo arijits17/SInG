@@ -1,0 +1,37 @@
+Daikon version 5.6.4, released April 3, 2018; http://plse.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading 3 dtrace files:
+
+No return from procedure observed 1 time.  Unmatched entries are ignored!
+Unterminated calls:
+  ..thr2() : 1 invocation
+End of report for procedures not returned from.  Unmatched entries are ignored!
+
+===========================================================================
+..okay_dummy_f1():::ENTER
+::turn == ::x
+::turn == count1
+::turn == count2
+::flag1 == 1
+::flag2 one of { 0, 1 }
+::turn == 0
+::flag1 >= ::flag2
+::flag2 >= ::turn
+===========================================================================
+..okay_dummy_f1():::EXIT
+::flag1 == orig(::flag1)
+::turn == ::x
+::turn == orig(::turn)
+::turn == orig(::x)
+::turn == orig(count1)
+::turn == orig(count2)
+::flag1 == 1
+::flag2 one of { 0, 1 }
+::turn == 0
+::flag1 >= ::flag2
+::flag1 >= orig(::flag2)
+::flag2 >= ::turn
+::flag2 >= orig(::flag2)
+::cond >= ::turn
+::cond >= orig(::flag2)
+::turn <= orig(::flag2)
+Exiting Daikon.

@@ -1,0 +1,256 @@
+CBMC version 5.3 64-bit x86_64 linux
+Parsing new_c_code.c
+Converting
+Type-checking new_c_code
+Generating GOTO Program
+Adding CPROVER library
+Function Pointer Removal
+Partial Inlining
+Generic Property Instrumentation
+Starting Bounded Model Checking
+Unwinding loop okay_dummy_f3.0 iteration 1 (4 max) file new_c_code.c line 30 function okay_dummy_f3 thread 1
+Unwinding loop okay_dummy_f3.0 iteration 2 (4 max) file new_c_code.c line 30 function okay_dummy_f3 thread 1
+Unwinding loop okay_dummy_f3.0 iteration 3 (4 max) file new_c_code.c line 30 function okay_dummy_f3 thread 1
+Not unwinding loop okay_dummy_f3.0 iteration 4 (4 max) file new_c_code.c line 30 function okay_dummy_f3 thread 1
+Unwinding loop okay_dummy_f3.1 iteration 1 (4 max) file new_c_code.c line 41 function okay_dummy_f3 thread 1
+Unwinding loop okay_dummy_f3.1 iteration 2 (4 max) file new_c_code.c line 41 function okay_dummy_f3 thread 1
+Unwinding loop okay_dummy_f3.1 iteration 3 (4 max) file new_c_code.c line 41 function okay_dummy_f3 thread 1
+Not unwinding loop okay_dummy_f3.1 iteration 4 (4 max) file new_c_code.c line 41 function okay_dummy_f3 thread 1
+Unwinding loop okay_dummy_f2.0 iteration 1 (4 max) file new_c_code.c line 67 function okay_dummy_f2 thread 1
+Unwinding loop okay_dummy_f2.0 iteration 2 (4 max) file new_c_code.c line 67 function okay_dummy_f2 thread 1
+Unwinding loop okay_dummy_f2.0 iteration 3 (4 max) file new_c_code.c line 67 function okay_dummy_f2 thread 1
+Not unwinding loop okay_dummy_f2.0 iteration 4 (4 max) file new_c_code.c line 67 function okay_dummy_f2 thread 1
+Unwinding loop okay_dummy_f2.1 iteration 1 (4 max) file new_c_code.c line 79 function okay_dummy_f2 thread 1
+Unwinding loop okay_dummy_f2.1 iteration 2 (4 max) file new_c_code.c line 79 function okay_dummy_f2 thread 1
+Unwinding loop okay_dummy_f2.1 iteration 3 (4 max) file new_c_code.c line 79 function okay_dummy_f2 thread 1
+Not unwinding loop okay_dummy_f2.1 iteration 4 (4 max) file new_c_code.c line 79 function okay_dummy_f2 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 1 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 2 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 3 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Not unwinding loop okay_dummy_f1.0 iteration 4 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.1 iteration 1 (4 max) file new_c_code.c line 96 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 1 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 2 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 3 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Not unwinding loop okay_dummy_f1.0 iteration 4 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.1 iteration 2 (4 max) file new_c_code.c line 96 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 1 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 2 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 3 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Not unwinding loop okay_dummy_f1.0 iteration 4 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.1 iteration 3 (4 max) file new_c_code.c line 96 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 1 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 2 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Unwinding loop okay_dummy_f1.0 iteration 3 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Not unwinding loop okay_dummy_f1.0 iteration 4 (4 max) file new_c_code.c line 100 function okay_dummy_f1 thread 1
+Not unwinding loop okay_dummy_f1.1 iteration 4 (4 max) file new_c_code.c line 96 function okay_dummy_f1 thread 1
+Unwinding loop thr2.0 iteration 1 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.0 iteration 2 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.0 iteration 3 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Not unwinding loop thr2.0 iteration 4 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.1 iteration 1 (4 max) file new_c_code.c line 150 function thr2 thread 2
+Unwinding loop thr2.0 iteration 1 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.0 iteration 2 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.0 iteration 3 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Not unwinding loop thr2.0 iteration 4 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.1 iteration 2 (4 max) file new_c_code.c line 150 function thr2 thread 2
+Unwinding loop thr2.0 iteration 1 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.0 iteration 2 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.0 iteration 3 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Not unwinding loop thr2.0 iteration 4 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.1 iteration 3 (4 max) file new_c_code.c line 150 function thr2 thread 2
+Unwinding loop thr2.0 iteration 1 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.0 iteration 2 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Unwinding loop thr2.0 iteration 3 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Not unwinding loop thr2.0 iteration 4 (4 max) file new_c_code.c line 154 function thr2 thread 2
+Not unwinding loop thr2.1 iteration 4 (4 max) file new_c_code.c line 150 function thr2 thread 2
+Adding SC constraints
+size of program expression: 4788 steps
+no slicing due to threads
+Generated 1 VCC(s), 1 remaining after simplification
+Passing problem to propositional reduction
+converting SSA
+Running propositional reduction
+Post-processing
+Solving with MiniSAT 2.2.0 with simplifier
+42064 variables, 150663 clauses
+SAT checker: negated claim is SATISFIABLE, i.e., does not hold
+Runtime decision procedure: 0.569s
+Building error trace
+
+Counterexample:
+
+State 25 file new_c_code.c line 171 function main thread 0
+----------------------------------------------------
+  t1=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 26 file new_c_code.c line 171 function main thread 0
+----------------------------------------------------
+  t2=0 (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 103 file new_c_code.c line 173 function main thread 1
+----------------------------------------------------
+  va_arg0=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 104 file new_c_code.c line 114 function thr1 thread 1
+----------------------------------------------------
+  count1=0 (00000000000000000000000000000000)
+
+State 105 file new_c_code.c line 114 function thr1 thread 1
+----------------------------------------------------
+  count1=0 (00000000000000000000000000000000)
+
+State 106 file new_c_code.c line 115 function thr1 thread 1
+----------------------------------------------------
+  count2=0 (00000000000000000000000000000000)
+
+State 107 file new_c_code.c line 115 function thr1 thread 1
+----------------------------------------------------
+  count2=0 (00000000000000000000000000000000)
+
+State 108 file new_c_code.c line 116 function thr1 thread 1
+----------------------------------------------------
+  opu_count2=0 (00000000000000000000000000000000)
+
+State 109 file new_c_code.c line 116 function thr1 thread 1
+----------------------------------------------------
+  opu_count2=0 (00000000000000000000000000000000)
+
+State 110 file new_c_code.c line 116 function thr1 thread 1
+----------------------------------------------------
+  thr1$$1$$mjo=0 (00000000000000000000000000000000)
+
+State 114 file new_c_code.c line 117 function thr1 thread 1
+----------------------------------------------------
+  flag1=1 (00000000000000000000000000000001)
+
+State 117 file new_c_code.c line 118 function thr1 thread 1
+----------------------------------------------------
+  count1=0 (00000000000000000000000000000000)
+
+State 118 file new_c_code.c line 118 function thr1 thread 1
+----------------------------------------------------
+  count2=0 (00000000000000000000000000000000)
+
+State 119 file new_c_code.c line 92 function okay_dummy_f1 thread 1
+----------------------------------------------------
+  opu_count1=0 (00000000000000000000000000000000)
+
+State 120 file new_c_code.c line 92 function okay_dummy_f1 thread 1
+----------------------------------------------------
+  opu_count1=0 (00000000000000000000000000000000)
+
+State 121 file new_c_code.c line 93 function okay_dummy_f1 thread 1
+----------------------------------------------------
+  opu_count2=0 (00000000000000000000000000000000)
+
+State 122 file new_c_code.c line 93 function okay_dummy_f1 thread 1
+----------------------------------------------------
+  opu_count2=0 (00000000000000000000000000000000)
+
+State 125 file new_c_code.c line 94 function okay_dummy_f1 thread 1
+----------------------------------------------------
+  count1=0 (00000000000000000000000000000000)
+
+State 126 file new_c_code.c line 94 function okay_dummy_f1 thread 1
+----------------------------------------------------
+  count2=0 (00000000000000000000000000000000)
+
+State 127 file new_c_code.c line 59 function okay_dummy_f2 thread 1
+----------------------------------------------------
+  opu_count1=0 (00000000000000000000000000000000)
+
+State 128 file new_c_code.c line 59 function okay_dummy_f2 thread 1
+----------------------------------------------------
+  opu_count1=0 (00000000000000000000000000000000)
+
+State 129 file new_c_code.c line 60 function okay_dummy_f2 thread 1
+----------------------------------------------------
+  opu_count2=0 (00000000000000000000000000000000)
+
+State 130 file new_c_code.c line 60 function okay_dummy_f2 thread 1
+----------------------------------------------------
+  opu_count2=0 (00000000000000000000000000000000)
+
+State 133 file new_c_code.c line 61 function okay_dummy_f2 thread 1
+----------------------------------------------------
+  count1=0 (00000000000000000000000000000000)
+
+State 134 file new_c_code.c line 61 function okay_dummy_f2 thread 1
+----------------------------------------------------
+  count2=0 (00000000000000000000000000000000)
+
+State 135 file new_c_code.c line 24 function okay_dummy_f3 thread 1
+----------------------------------------------------
+  opu_count1=0 (00000000000000000000000000000000)
+
+State 136 file new_c_code.c line 24 function okay_dummy_f3 thread 1
+----------------------------------------------------
+  opu_count1=0 (00000000000000000000000000000000)
+
+State 137 file new_c_code.c line 25 function okay_dummy_f3 thread 1
+----------------------------------------------------
+  opu_count2=0 (00000000000000000000000000000000)
+
+State 138 file new_c_code.c line 25 function okay_dummy_f3 thread 1
+----------------------------------------------------
+  opu_count2=0 (00000000000000000000000000000000)
+
+State 143 file new_c_code.c line 174 function main thread 2
+----------------------------------------------------
+  va_arg0=NULL (0000000000000000000000000000000000000000000000000000000000000000)
+
+State 144 file new_c_code.c line 146 function thr2 thread 2
+----------------------------------------------------
+  count1=0 (00000000000000000000000000000000)
+
+State 145 file new_c_code.c line 146 function thr2 thread 2
+----------------------------------------------------
+  count1=0 (00000000000000000000000000000000)
+
+State 146 file new_c_code.c line 147 function thr2 thread 2
+----------------------------------------------------
+  count2=0 (00000000000000000000000000000000)
+
+State 147 file new_c_code.c line 147 function thr2 thread 2
+----------------------------------------------------
+  count2=0 (00000000000000000000000000000000)
+
+State 148 file new_c_code.c line 148 function thr2 thread 2
+----------------------------------------------------
+  opu_count2=0 (00000000000000000000000000000000)
+
+State 149 file new_c_code.c line 148 function thr2 thread 2
+----------------------------------------------------
+  opu_count2=0 (00000000000000000000000000000000)
+
+State 150 file new_c_code.c line 148 function thr2 thread 2
+----------------------------------------------------
+  thr2$$1$$mjo=0 (00000000000000000000000000000000)
+
+State 151 file new_c_code.c line 149 function thr2 thread 2
+----------------------------------------------------
+  flag2=1 (00000000000000000000000000000001)
+
+State 155 file new_c_code.c line 151 function thr2 thread 2
+----------------------------------------------------
+  count1=1 (00000000000000000000000000000001)
+
+State 160 file new_c_code.c line 38 function okay_dummy_f3 thread 1
+----------------------------------------------------
+  count1=1 (00000000000000000000000000000001)
+
+State 165 file new_c_code.c line 153 function thr2 thread 2
+----------------------------------------------------
+  flag2=0 (00000000000000000000000000000000)
+
+State 169 file new_c_code.c line 155 function thr2 thread 2
+----------------------------------------------------
+  count2=1 (00000000000000000000000000000001)
+
+Violated property:
+  file new_c_code.c line 49 function okay_dummy_f3
+  assertion flag2 ==0 || flag2 ==1
+  flag2 == 0 || flag2 == 1
+
+VERIFICATION FAILED
